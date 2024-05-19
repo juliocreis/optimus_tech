@@ -1,0 +1,66 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100vw;
+}
+
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+    font-size: 18px;
+    color: var(--cor-preta2);
+}
+
+.navbar-imagem {
+    margin: 0.5rem;
+}
+
+.navbar-paginas {
+    display: flex;
+    align-items: center;
+    margin-right: 16rem;
+}
+
+.navbar-paginas-item {
+    padding: 2rem;
+}
+
+.navbar-paginas-link {
+    text-decoration: none;
+    color: var(--cor-cinza);
+}
+
+.navbar-botoes {
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.botao {
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.botao-entrar {
+    background-color: var(--cor-principal);
+    border: none;
+    font-family: var(--fonte-principal);
+    color: var(--cor-cinza);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.botao-cadastrar {
+    background-color: var(--cor-secundaria);
+    width: 7rem;
+    height: 2.75rem;
+    border-radius: 8px;
+    border: none;
+    color: var(--cor-principal);
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 1rem;
+}

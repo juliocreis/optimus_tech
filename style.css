@@ -1,0 +1,21 @@
+@import url(/styles/navbar.css);
+@import url(/styles/header.css);
+
+
+:root {
+    --fonte-principal: "Inter";
+    --cor-principal: white;
+    --cor-secundaria: #8E2424;
+    --cor-cinza: #667085;
+    --cor-preta: #101828;
+    --cor-preta2: #3A404E;
+}
+
+body {
+    background-color: var(--cor-principal);
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 16px;
+    height: 100vh;
+    width: 100%;
+}
