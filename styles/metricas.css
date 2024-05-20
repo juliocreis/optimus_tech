@@ -1,0 +1,26 @@
+.metricas-container {
+    display: flex;
+    padding: 0 5rem 0 5rem;
+}
+
+.metrica-item {
+    margin: 2rem;
+}
+
+.metrica-numero {
+    color: var(--cor-secundaria);
+    font-weight: 600;
+    font-size: 60px;
+    margin-bottom: 0.75rem;
+}
+
+.metrica-titulo {
+    font-size: 18px;
+    color: var(--cor-preta);
+    margin-bottom: 0.5rem;
+}
+
+.metrica-texto {
+    color: var(--cor-cinza);
+    text-align: start;
+}
