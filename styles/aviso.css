@@ -1,0 +1,32 @@
+.aviso-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aviso-aviso {
+    background-color: rgba(142, 36, 36, 0.05);
+    color: var(--cor-secundaria);
+    font-size: 14px;
+    padding: 0.5rem;
+    border-radius: 16px;
+    margin: 6rem 0 1rem 0;
+}
+
+.aviso-titulo {
+    color: var(--cor-preta);
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+}
+
+.aviso-texto {
+    color: var(--cor-cinza);
+    font-weight: 400;
+    margin-bottom: 4rem;
+}
+
+.aviso-imagem {
+    padding: 0 7rem 0 7rem;
+    height: 400px;
+}
